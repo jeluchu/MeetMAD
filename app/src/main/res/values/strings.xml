@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Meet MAD</string>
+
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="novedades">Novedades</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="perfil">Perfil</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="galer_a">Galería</string>
+    <string name="calendario_y_eventos">Calendario y Eventos</string>
+</resources>
