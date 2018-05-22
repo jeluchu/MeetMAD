@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">Meet MAD</string>
 
-
-
     <string name="action_settings">Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -15,4 +13,17 @@
     <string name="cuenta">Cuenta</string>
     <string name="galer_a">Galería</string>
     <string name="calendario_y_eventos">Calendario y Eventos</string>
+    <string name="madrid_espa_a">Madrid, España</string>
+    <string name="todo">TODO</string>
+    <string name="fernando_de_la_mata">Fernando de la Mata</string>
+    <string name="_200_namigos">200+ Amigos</string>
+    <string name="informaci_n">Información</string>
+    <string name="profesi_n">Profesión:</string>
+    <string name="profesor_de_entornos_y_bases">Profesor de Entornos y Bases</string>
+    <string name="aficiones">Aficiones:</string>
+    <string name="tel_fono">Teléfono:</string>
+    <string name="_34_646_345_521">(+34) 646 345 521</string>
+    <string name="cine_m_sica_programaci_n">Cine, Música, Programación</string>
+    <string name="_500_npublicaciones">500+ Publicaciones</string>
+    <string name="eventos">Eventos</string>
 </resources>

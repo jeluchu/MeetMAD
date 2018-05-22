@@ -8,7 +8,6 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -57,7 +56,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                         allowStateLoss = true,
                         containerViewId = R.id.mainContent
                 )
-                setTitle("Novedades")
+                title = "Novedades"
             }
             R.id.nav_gallery -> {
                 replaceFragmenty(
@@ -65,7 +64,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                         allowStateLoss = true,
                         containerViewId = R.id.mainContent
                 )
-                setTitle("Galería")
+                title = "Galería"
             }
             R.id.nav_slideshow -> {
                 replaceFragmenty(
@@ -73,7 +72,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                         allowStateLoss = true,
                         containerViewId = R.id.mainContent
                 )
-                setTitle("Calendario y Enventos")
+                title = "Enventos"
             }
             /**R.id.nav_manage -> {
                 replaceFragmenty(
@@ -89,7 +88,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                         allowStateLoss = true,
                         containerViewId = R.id.mainContent
                 )
-                setTitle("Share")
+                title = "Perfil"
             }
             R.id.nav_send -> {
                 replaceFragmenty(
@@ -97,7 +96,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                         allowStateLoss = true,
                         containerViewId = R.id.mainContent
                 )
-                setTitle("Send")
+                setTitle("Cuenta")
             }
         }
 
