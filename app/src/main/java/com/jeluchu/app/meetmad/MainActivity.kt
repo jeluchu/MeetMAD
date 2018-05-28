@@ -17,6 +17,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onCreate(savedInstanceState: Bundle?) {
         //NO PERMITIR LA ROTACIÓN
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
+
+        /* SELECCIÓN DEL FRAGMENT INICIAL */
+        replaceFragmenty(fragment = Fragment1(), allowStateLoss = true, containerViewId = R.id.mainContent)
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
